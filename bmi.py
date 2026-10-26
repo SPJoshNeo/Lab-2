@@ -5,7 +5,7 @@ def calculate_bmi(height, weight):
     print("BMI = "+str(BMI))
     if BMI<18.5:
         print("Under Weight")
-    elif 18.5<=BMI<=25.0:
+    elif BMI>=18.5 and BMI<=25.0:
         print("Normal Weight")
     else:
         print("Over Weight")
